@@ -6,6 +6,10 @@
     background-color: #676767;
 } 
 
+.bg-color-three-reasons {
+    background-color: #ffffff;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -22,7 +26,7 @@
     background-color: #525252;
 }
 
-/* -------------------------------- Special paddings/margins/text  */
+/* -------------------------------- Special paddings/margins/text/General  */
 
 h1, 
 h2, 
@@ -43,6 +47,23 @@ h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table;
+    padding 0 30px 30px;
+    float:none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /* -------------------------------- Heading  */
@@ -137,8 +158,6 @@ transition: all .5s ease-in-out;
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
-
-
 
 
 /* -------------------------------- Footer */
